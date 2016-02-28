@@ -1,7 +1,6 @@
 {
     "name": "heatmap.js-amd",
     "description": "Dynamic JavaScript Heatmaps for the Web",
-    "main": "build/heatmap.min.js",
     "homepage": "http://www.patrick-wied.at/static/heatmapjs/",
     "authors": [
         "Patrick Wied <contact@patrick-wied.at>"
@@ -15,7 +14,7 @@
     ],
     "main": [
       "build/heatmap.js",
-      "plugins/gmaps-heatmap.js",
+	  "plugins/angular-heatmap.js",
       "plugins/leaflet-heatmap.js",
       "plugins/svg-area-heatmap.js"
     ],
